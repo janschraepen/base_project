@@ -5,10 +5,6 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- import spring application context -->
-    <import resource="datasource.xml" />
-    <import resource="repositories.xml" />
-    <import resource="services.xml" />
-    <import resource="providers.xml" />
+    <context:component-scan base-package="be.mediasoft.example.provider" />
 
 </beans>

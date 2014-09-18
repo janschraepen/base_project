@@ -1,0 +1,17 @@
+.product,
+.products {
+    width: 80%;
+    margin: auto;
+}
+
+.product__toolbar,
+.products__toolbar{
+    margin: 0 0 20px 0;
+}
+
+.product__toolbar input,
+.products__toolbar input{
+    font-size: 20pt;
+    width: 75px;
+    height: 40px;
+}
